@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>interactive page</title>
+	</head>
+	<body>
+		<h1>important form</h1>
+		<p> this should encompass all info that is ever philosophically needed about your life</p>
+		<h2>start:</h2>
+		<form action="artifact2.html" method="get">
+			<p>are you a big fan of the government?</p>
+			<!-- <p>30 on 30</p> -->
+			<label for="0">yes</label>
+			<input type="radio" id="0" name="loyalty" value="yes" required>
+			<label for="00">maybe...</label>
+			<input type="radio" id="00" name="loyalty" value="maybe">
+
+			<label for="1">NO!<img display="block" width="60px" src="bald-vegeta.gif"></label>
+			<input type="radio" id="1" name="loyalty" value="no">
+			<p>what is your favorite month (only reasonable answers allowed)</p>
+			<select name="month" required>
+				<option>may</option>
+				<option>october</option>
+				<option>december</option>
+			</select>
+			<br>
+			<p><strong>enlighten us:</strong></p>
+			<input type="text" name="card" size="25" placeholder="my credit card number is..." required>
+			<br>
+			<p>what is your phone number</p>
+			<input name="phone" style="width:1000000px;" required type="range" min="0" max="9999999999" value="5100000000"oninput="this.nextElementSibling.value = this.value">
+			<output style="left:8; position:fixed;">5100000000</output>
+			<br>
+			<input type="submit">
+		</form>
+	</body>
+</html>
